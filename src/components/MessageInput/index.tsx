@@ -53,7 +53,6 @@ export default function MessageInput({ onSubmit, loading }: MessageInputProps) {
             <LoadingDots color="#000" />
           </div>
         ) : (
-          // Send icon SVG in input field
           <svg
             viewBox="0 0 20 20"
             className={styles.svgicon}
